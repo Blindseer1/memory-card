@@ -1,0 +1,21 @@
+#cardDeck {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+
+
+}
+
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0 1.5rem;
+}
+
+#controller {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
